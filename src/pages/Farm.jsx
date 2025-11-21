@@ -11,12 +11,12 @@ const TYPES = ["all", "cow", "chicken", "sheep", "pig", "other"];
 const STATUSES = ["all", "healthy", "review", "sick"];
 
 export default function Farm() {
-  const [animals, setAnimals] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [animals, setAnimals] = useState(["Animales"]);
+  const [loading, setLoading] = useState(false);
   const [loadError, setLoadError] = useState(null);
 
   // Filtros UI
-  const [typeFilter, setTypeFilter] = useState("all");
+  const [typeFilter, setTypeFilter] = useState("cow");
   const [statusFilter, setStatusFilter] = useState("all");
   const [query, setQuery] = useState("");
 
