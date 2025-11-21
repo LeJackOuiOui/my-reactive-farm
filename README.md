@@ -1,12 +1,10 @@
-# Actividad 1
+# Actividad 2
 
-Estados cambiados:
+Filtro añadido:
 
-- `animals` de `([])` a `(["Animales"])`
-- `loading` de `true` a `false`
-- `typeFilter` de `"all"` a `"cow"`
+- `ageFilter` para filtrar los animales por un rango de edad
 
 Cambios evidenciados:
 
-- Al momento de cargar los objetos el filtro por defecto esta en el valor `cow`, haciendo que solamente salgan animales de ese tipo.
-- Por lo demás no hay más cambios debido a que estos demás estados son cambiados dentro de sus respectivas funciones, por ende su estado predeterminado nunca es leído ni presentado.
+- El filtro usa un array objetos en vez de uno de strings, haciendolo más complejo, a la vez su codigo de verificación es más complejo.
+- La lista sigue ordenandose de la misma manera, la principal diferencia es que ahora, como con los otros filtros, solo los objetos con algo en común se muestran en esta misma.
