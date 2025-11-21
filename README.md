@@ -1,17 +1,17 @@
 # 1. Análisis del repositorio
 
 1. Estructura del proyecto
-   my-reactive-farm/
-   ├── .env
-   ├── .gitignore
-   ├── README.md
-   ├── eslint.config.js
-   ├── folder-structure.txt
-   ├── index.html
-   ├── package.json
-   ├── package-lock.json
-   ├── vite.config.js
-   └── src/
+   `my-reactive-farm/
+├── .env
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── folder-structure.txt
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── src/`
 
 - Raiz del proyecto:
 
